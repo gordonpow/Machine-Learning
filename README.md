@@ -7,7 +7,7 @@
 假設我們有一組標註好的資料集 \(\{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}\)，其中 \(x_i \in \mathbb{R}^d\) 是資料點，\(y_i \in \{-1, +1\}\) 是其標籤。
 
 SVM 的目標是找到一個超平面，該超平面可以由以下方程表示：
-
+This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 \[
 w \cdot x + b = 0
 \]
