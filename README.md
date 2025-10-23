@@ -22,7 +22,7 @@ SVM 的核心目標是最大化從支持向量（離超平面最近的資料點�
 
 ## c. 約束條件
 
-為了使所有資料點被正確分類，對於每個資料點 $(x_i, y_i)$ 必須滿足：
+為了使所有資料點被正確分類，對於每個資料點 $`(x_i, y_i)`$ 必須滿足：
 
 $$
 y_i (w \cdot x_i + b) \geq 1
@@ -52,7 +52,7 @@ $$
 L(w, b, \alpha) = \frac{1}{2} ||w||^2 - \sum_{i=1}^{n} \alpha_i \left( y_i (w \cdot x_i + b) - 1 \right)
 $$
 
-其中，$\alpha_i \geq 0$ 是拉格朗日乘數。
+其中，$`\alpha_i \geq 0`$ 是拉格朗日乘數。
 
 ## f. KKT條件與最優解
 
@@ -82,7 +82,7 @@ $$
 L = \frac{1}{2} \sum_{i=1}^n (y_i - \hat{y}_i)^2
 $$
 
-其中，$y_i$ 是真實值，$\hat{y}_i$ 是預測值。
+其中，$`y_i`$ 是真實值，$\hat{y}_i$ 是預測值。
 
 ## c. 反向傳播
 
@@ -94,7 +94,7 @@ $$
 W_l^{new} = W_l^{old} - \eta \frac{\partial L}{\partial W_l}
 $$
 
-其中，$\eta$ 是學習率，$\frac{\partial L}{\partial W_l}$ 是該層權重的梯度。
+其中，$`\eta`$ 是學習率，$`\frac{\partial L}{\partial W_l}`$ 是該層權重的梯度。
 
 ## d. 梯度下降更新規則
 
@@ -104,6 +104,6 @@ $$
 w^{*} = w + \Delta w
 $$
 
-其中，$\Delta w = - \eta \nabla_w L$，即梯度下降中每次步長的更新。
+其中，$`\Delta w = - \eta \nabla_w L`$，即梯度下降中每次步長的更新。
 
 ---
