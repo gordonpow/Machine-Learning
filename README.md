@@ -13,6 +13,8 @@ SVM 的目標是找到一個超平面，該超平面可以由以下方程表示�
 w \cdot x + b = 0
 \]
 
+\frac{\partial x}{\partial y} 
+
 其中，\(w \in \mathbb{R}^d\) 是超平面的法向量，\(b\) 是偏置項。
 
 ## b. 最大化間隔
